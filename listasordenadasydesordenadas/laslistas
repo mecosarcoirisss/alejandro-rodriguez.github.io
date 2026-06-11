@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>listas ordenadas y desordenadas</title>
+</head>
+<body>
+   <center>
+    <h1>ejemplo de listas</h1>
+    <p>aqui hay una lista desordenada y una lista ordenada</p>
+   </center>
+    <h2>lista desordenada</h2>
+    <ul>
+      <li>item uno</li>
+      <li>item dos</li>
+      <li>item tres</li>
+    </ul>
+        <h2>lista ordenada</h2>
+    <ol>
+      <li>primer elemento</li>
+      <li>segundo elemento</li>
+      <li>tercer elemento</li>
+    </ol>
+</body>
+</html>
