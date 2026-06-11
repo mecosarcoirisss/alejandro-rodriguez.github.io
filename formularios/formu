@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="UTF-8"> 
+      <title>formularios</title>
+    </head>
+    <body>
+      <center>
+        <h2> FORMULARIOS </h2>
+          <br></b>
+            <form>
+
+              Nombre:<input type="text"/> <br> <p>
+
+             apellidos:<input type="text"/> <br> <p>
+
+              Contraseña:<input type="password"/> <br> <p>
+
+              Casilla de verificacion:<input type="checkbox" /> <br> <p></p>
+
+              Casilla de seleccion: <input type="radio"/> <br> <p></p>
+ 
+              Seleccion de archivo:<input type="file"/> <br></br> <p></p>
+
+              Boton de envio: <input type="submit"> <p></p>
+       
+            <form>
+      </center>
+    </body>
