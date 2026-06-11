@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cuadro Comparativo: HTML vs CSS</title>
+</head>
+<body>
+    <center>
+        <h1>cuadro comparativo: html vs css</h1>
+        
+        <table border="1">
+        <tr>
+            <th>aspecto</th>
+            <th>html</th>
+            <th>css</th>
+        </tr>
+        <tr>
+            <td>definicion</td>
+            <td>lenguaje de marcado para crear la estructura de una pagina web</td>
+            <td>lenguaje de estilos para dar apariencia y diseno a la pagina web</td>
+        </tr>
+        <tr>
+            <td>funcion principal</td>
+            <td>crear contenido y estructura</td>
+            <td>estilizar y disenar el contenido</td>
+        </tr>
+        <tr>
+            <td>extension</td>
+            <td>.html</td>
+            <td>.css</td>
+        </tr>
+        <tr>
+            <td>elementos</td>
+            <td>etiquetas: &lt;p&gt;, &lt;div&gt;, &lt;h1&gt;, &lt;img&gt;, etc.</td>
+            <td>propiedades: color, font-size, margin, padding, etc.</td>
+        </tr>
+        <tr>
+            <td>importancia</td>
+            <td>esencial para la estructura de la web</td>
+            <td>mejora la presentacion visual</td>
+        </tr>
+        <tr>
+            <td>tipo de lenguaje</td>
+            <td>lenguaje de marcado</td>
+            <td>lenguaje de hojas de estilo</td>
+        </tr>
+    </table>
+    </center>
+</body>
+</html>
