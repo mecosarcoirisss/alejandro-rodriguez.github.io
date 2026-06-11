@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>pagina de prueba</title>
+ </head>
+ <body>
+  <body bgcolor="aquamarine">
+  <h1>pagina recien hecha (no guarde la de la sala de computo)</h1>
+   <em>cursiva</em>
+     <br></br>
+    <strong>negrita</strong>
+     <br></br>
+   <img src= "https://static.wixstatic.com/media/fbfe21_a82a1a73ec8148688d77533a86c366cc~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg" width="600" alt="foto de un cuyo"/>
+     <br></br>
+    <a href="https://www.youtube.com/@MrBeast">canal con mas suscriptores de youtube</a>
+      <br></br>
+       <h3>primer video de la historia de youtube<h3>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/jNQXAC9IVRw?si=gQlquvht9FFLXZsH"
+          title="YouTube video player"
+          frameborder="0"
+          allowfullscreen>
+        </iframe>
+       <p>(me di cuenta que el video no agarraba por que el navegador estaba bloqueando contenido mixto y iframes en el archivo local de esta pagina. abri el vs code para abrirla con la extension live server y si se veia normal pero en si no lo pude arreglar)
+        <br></br>
+       <h2>en fin no se que mas agregar aparte por que es 100% html la pagina XD<h2>
+      <img src="https://media.tenor.com/AhShX4s-guwAAAAj/vibing-rainbow.gif" />
+ </body>
+</html>
