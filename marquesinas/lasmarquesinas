@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>marquesinas pro</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        :root{
+            --bg: #000;
+            --card-bg: rgba(209,30,30,0.493);
+            --text: #fff;
+        }
+        html,body{height:100%;margin:0;font-family:'Poppins',system-ui,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--text)}
+        .container{max-width:900px;margin:28px auto;padding:18px}
+        header{display:flex;align-items:center;justify-content:center;margin-bottom:18px}
+        h1{margin:0;color:var(--text);font-weight:600;letter-spacing:0.5px}
+        h2{color:aliceblue;margin:18px 0 8px}
+        .marq{background:var(--card-bg);color:var(--text);padding:14px 18px;border-radius:12px;box-shadow:0 6px 18px rgba(0,0,0,0.6);display:block}
+        marquee.marq{display:block}
+        marquee.images{padding:10px;border-radius:12px}
+        marquee img{border-radius:8px;border:2px solid rgba(255,255,255,0.06);margin-right:8px}
+        .note{font-size:13px;opacity:0.9}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>ejemplos de marquesinas</h1>
+        </header>
+        <h2>marquesina horizontal</h2>
+        <marquee class="marq" scrollamount="6">
+            marquesina de izquierda a derecha
+        </marquee>
+
+        <h2>marquesina horizontal</h2>
+        <marquee class="marq" direction="right" scrollamount="6">
+            marquesina de derecha a izquierda
+        </marquee>
+
+        <h2>marquesina vertical</h2>
+        <marquee class="marq" direction="up" scrollamount="3" style="line-height:1.6;">
+            marquesina que sube <br>
+            hola <br>
+            hola <br>
+            hola <br>
+            arriba las chivas <br>
+        </marquee>
+
+        <h2>marquesina con rebote</h2>
+        <marquee class="marq" behavior="alternate" scrollamount="10">
+            marquesina con rebote
+        </marquee>
+
+        <marquee class="images" behavior="alternate" scrollamount="6" style="background:var(--card-bg);">
+            <div style="display:flex;align-items:center;gap:12px;">
+                <h3 style="margin:0 8px 0 0;color:var(--text);font-weight:600">imagen de homero</h3>
+                <img src="homero.png" width="100" height="100" alt="homero">
+                <img src="Fernanfloo_y_Super_Sonico.webp" width="100" height="100" alt="fernanfloo">
+                <img src="blue-glossy-ball-png.webp" width="100" height="100" alt="blue ball">
+            </div>
+        </marquee>
+
+        <h2>marquesina con enlaces</h2>
+        <marquee class="marq" scrollamount="6">
+            <a href="https://www.youtube.com/channel/UCX6OQ3DkcsbYNE6H8uQQuVA" target="_blank" rel="noreferrer">canal de Mr.Beast</a>
+            ·
+            <a href="https://callofduty.fandom.com/es/wiki/Call_of_Duty_Wiki" target="_blank" rel="noreferrer">wiki de Call of Duty</a>
+            ·
+            <a href="https://godofwar.fandom.com/es/wiki/God_of_War_Wiki" target="_blank" rel="noreferrer">wiki de God of War</a>
+        </marquee>
+
+        <h2>video musical</h2>
+        <div class="video-wrapper" style="margin-top:12px;">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/TODO" title="Serena - 2slimey" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </div>
+</body>
+</html>
