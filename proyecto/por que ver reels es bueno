@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>calendario goat</title>
+  <style>
+    body {
+      font-family: Aria-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px;
+      background-color: #f5f5f5;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 500px;
+    }
+
+    .titulo {
+      background-color: #8B1A3A;
+      color: white;
+      text-align: center;
+      font-size: 22px;
+      font-weight: bold;
+      padding: 12px;
+    }
+
+    .dia-semana {
+      text-align: center;
+      padding: 8px 4px;
+      font-size: 15px;
+      color: #333;
+      font-weight: normal;
+    }
+
+    td.dia {
+      text-align: center;
+      padding: 10px 4px;
+      font-size: 16px;
+      color: #333;
+      width: 70px;
+      height: 42px;
+    }
+
+    td.vacio {
+      width: 70px;
+    }
+
+    td.lunes {
+      background-color: #E6A817;
+      color: white;
+      text-align: center;
+      padding: 10px 4px;
+      font-size: 16px;
+      width: 70px;
+      height: 42px;
+    }
+
+    td.festivo {
+      background-color: #1a1a1a;
+      color: white;
+      text-align: center;
+      padding: 10px 4px;
+      font-size: 16px;
+      font-weight: bold;
+      width: 70px;
+      height: 42px;
+    }
+
+    td.viernes {
+      background-color: #E6A817;
+      color: white;
+      text-align: center;
+      padding: 10px 4px;
+      font-size: 16px;
+      width: 70px;
+      height: 42px;
+    }
+
+    td.borde-morado {
+      background-color: #E6A817;
+      color: #333;
+      text-align: center;
+      padding: 10px 4px;
+      font-size: 16px;
+      font-weight: bold;
+      width: 70px;
+      height: 42px;
+      border: 3px solid #6B3FA0;
+      box-sizing: border-box;
+    }
+
+    .leyenda {
+      margin-top: 16px;
+      width: 500px;
+      font-size: 14px;
+      color: #333;
+      line-height: 1.8;
+    }
+
+    .leyenda span {
+      font-weight: bold;
+      margin-right: 12px;
+    }
+  </style>
+</head>
+<body>
+
+  <table>
+    <tr>
+      <td colspan="7" class="titulo">MAYO 2026</td>
+    </tr>
+    <tr>
+      <td class="dia-semana">Dom</td>
+      <td class="dia-semana">Lun</td>
+      <td class="dia-semana">Mar</td>
+      <td class="dia-semana">Mie</td>
+      <td class="dia-semana">Jue</td>
+      <td class="dia-semana">Vie</td>
+      <td class="dia-semana">Sab</td>
+    </tr>
+    <tr>
+      <td class="vacio"></td>
+      <td class="vacio"></td>
+      <td class="vacio"></td>
+      <td class="vacio"></td>
+      <td class="vacio"></td>
+      <td class="festivo">1</td>
+      <td class="dia">2</td>
+    </tr>
+    <tr>
+      <td class="dia">3</td>
+      <td class="lunes">4</td>
+      <td class="festivo">5</td>
+      <td class="dia">6</td>
+      <td class="dia">7</td>
+      <td class="viernes">8</td>
+      <td class="dia">9</td>
+    </tr>
+    <tr>
+      <td class="dia">10</td>
+      <td class="lunes">11</td>
+      <td class="dia">12</td>
+      <td class="dia">13</td>
+      <td class="dia">14</td>
+      <td class="festivo">15</td>
+      <td class="dia">16</td>
+    </tr>
+    <tr>
+      <td class="dia">17</td>
+      <td class="lunes">18</td>
+      <td class="festivo">19</td>
+      <td class="dia">20</td>
+      <td class="dia">21</td>
+      <td class="viernes">22</td>
+      <td class="dia">23</td>
+    </tr>
+    <tr>
+      <td class="dia">24</td>
+      <td class="lunes">25</td>
+      <td class="borde-morado">26</td>
+      <td class="dia">27</td>
+      <td class="dia">28</td>
+      <td class="viernes">29</td>
+      <td class="dia">30</td>
+    </tr>
+    <tr>
+      <td class="dia">31</td>
+      <td class="vacio"></td>
+      <td class="vacio"></td>
+      <td class="vacio"></td>
+      <td class="vacio"></td>
+      <td class="vacio"></td>
+      <td class="vacio"></td>
+    </tr>
+  </table>
+
+  <div class="leyenda">
+    <div><span>1 de mayo:</span> dia del trabajo</div>
+    <div><span>5 de mayo:</span> batalla de puebla</div>
+    <div><span>15 de mayo:</span> dia del maestro</div>
+  </div>
+  <h1>tuve que buscar en google algunas cosas que no sabia como hacerlas</h1>
+</body>
+</html>
